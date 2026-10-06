@@ -7,7 +7,7 @@ How much can synthetic images from DCGAN and a FastGAN-inspired model help a CNN
 ## Setup
 
 - **Task:** binary classification, Cow vs Horse
-- **Data:** 41 training images and 41 test images per class (82 + 82). The data comes from a university course and is not redistributed in this repository.
+- **Data:** 41 training images and 41 test images per class (82 + 82).
 - **Classifier:** small CNN built from scratch (no pretrained weights)
 - **Test set:** 82 images, used only for final evaluation
 
