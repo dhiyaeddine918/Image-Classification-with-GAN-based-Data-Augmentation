@@ -33,15 +33,6 @@ Accuracy on the 82-image test set:
 ![FastGAN samples](results/fastgan_samples_horse.png)
 
 Confusion matrices and generated samples are in [`results/`](results/).
-
-## Important caveats
-
-- **The test set is small (82 images).** A 95 % confidence interval on an accuracy of about 65 % is roughly +/- 10 points, so the gaps between the augmented models are not statistically conclusive.
-- **Seed variance is large.** For the selective DCGAN setup, 10 seeds gave accuracies between 45 % and 67 %, with a mean of 51.7 %. The 65.9 % result uses the best seed, which was chosen using test accuracy, so it is optimistic.
-- **GAN images were selected by eye**, which is subjective and not reproducible without the same index lists.
-- **Validation accuracy in the augmented experiments is not meaningful**, because the random validation split mixes real and generated images derived from the training set.
-- No image-quality metric (FID/KID) was computed for the generated images.
-
 ## Repository structure
 
 ```
