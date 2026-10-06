@@ -1,4 +1,4 @@
-# Few-Shot Image Classification with GAN-Based Data Augmentation (Cow vs Horse)
+#  Image Classification with GAN-Based Data Augmentation (Cow vs Horse)
 
 How much can synthetic images from DCGAN and a FastGAN-inspired model help a CNN trained from scratch on only **41 images per class**? This project also trains a CycleGAN for unpaired Cow <-> Horse translation.
 
